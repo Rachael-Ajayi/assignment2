@@ -32,7 +32,7 @@ module.exports.displayaboutpage = (req, res, next) => {
 
 module.exports.displayproductpage = (req, res, next) => {
   res.render("projects", {
-    title: "Products",
+    title: "Projects",
     displayName: req.user ? req.user.displayName : "",
   });
 };

@@ -18,7 +18,7 @@ module.exports.displayBookList = (req, res, next) => {
       //console.log(bookList);
 
       res.render("book/list", {
-        title: "Books",
+        title: "Business",
         BookList: bookList,
         displayName: req.user ? req.user.displayName : "",
       });
@@ -29,7 +29,7 @@ module.exports.displayBookList = (req, res, next) => {
 
 module.exports.addpage = (req, res, next) => {
   res.render("book/add", {
-    title: "Add book",
+    title: "Add contact",
     displayName: req.user ? req.user.displayName : "",
   });
 };
@@ -63,7 +63,7 @@ module.exports.displayeditpage = (req, res, next) => {
     } else {
       //show the edit view
       res.render("book/edit", {
-        title: "Edit book",
+        title: "Edit contact",
         book: booktoedit,
         displayName: req.user ? req.user.displayName : "",
       });
