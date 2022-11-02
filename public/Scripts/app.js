@@ -1,3 +1,7 @@
+// FILENAME: Assignment2
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 1ND NOVEMBER, 2022
 // IIFE -- Immediately Invoked Function Expression
 (function () {
   function Start() {

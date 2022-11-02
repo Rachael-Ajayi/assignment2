@@ -1,3 +1,7 @@
+// FILENAME: Assignment2
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 1ND NOVEMBER, 2022
 // require modules for the User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
