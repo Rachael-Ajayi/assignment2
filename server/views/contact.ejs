@@ -1,0 +1,78 @@
+<!-- // FILENAME: Assignment1
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 26th OCTOBER, 2022 -->
+
+
+<%- include partials/header.ejs %> 
+
+<%- include partials/main_nav.ejs %> 
+
+<main class="container">
+    <div class="jumbotron">
+      
+      <h1 class="display-4">Welcome to the <%= title %> page of my express portfolio!</h1>
+      <br>
+      
+      <h4>Contact number: &nbsp; &nbsp; (+1)647-684-9200 </h4>
+      <h4>Email: &nbsp; &nbsp; ajayirachael11@gmail.com </h4>
+      <h4>LinkedIn:  &nbsp; &nbsp; <a href="https://www.linkedin.com/in/rachael-ajayi/" >https://www.linkedin.com/in/rachael-ajayi/</a></h4>
+<br><br>
+
+<p> <i>Kindly leave a message if you are interested in working together, i would love to love to hear from you</i></p><br>
+
+        <div id="AllPages">
+
+        <form action="mailto:rajayi@my.centennialcollege.ca" method="post">
+          <fieldset> 
+
+            <p>
+               <label for="txtFName"> &nbsp; First Name :</label>
+               <input name="txtFName" id="Fname" size="40" type="text" tabindex="1" required >
+           </p>
+           <br>
+           <p>
+               <label for="txtMName"> &nbsp; Middle Name :</label>
+               <input name="txtMName" id="Mname" size="40" type="text" tabindex="4" placeholder=" ( If any )" >
+           </p>
+           <br>
+           <p>
+               <label for="txtLName"> &nbsp; Last Name :</label>
+               <input name="txtLName" id="Lname" size="40" type="text" tabindex="7" required >
+           </p>
+           <br>
+           <p>
+               <label for="Phone"> &nbsp; Phone Number :</label>
+               <input name="Phone" id="ph" size="11" type="text" tabindex="11" required >
+           </p>
+           <br>
+           <p>
+               <label for="email"> &nbsp; Email: </label>
+                <input type="text" name="CustEmail" id= "email" size="25" tabindex="15" required placeholder=" e.g domain_name@gmail.com" />
+
+           </p>
+           <br>
+              <p>
+                
+                <textarea id="other" name="other" cols="90" rows="15" tabindex="152" placeholder="Kindly tell us any other information you would like us to know" ></textarea>
+            </p>   
+
+            <p id="message"><i> Thank you for your feedback! I look forward to getting to know you! <br> </i><br>
+
+                &nbsp; &nbsp;
+                <input name="btnsubmit" tabindex="157" id="submit" type="submit" value="Send Form">
+                 &nbsp; &nbsp;
+                <input name="btnreset" tabindex="162" id="reset" type="reset" value="Restart form">
+          </fieldset> <br><br>  <br>
+    
+
+
+
+        </form>
+      
+    </div>
+  </main>
+
+<%- include partials/bottom_nav.ejs %> 
+
+<%- include partials/footer.ejs %> 

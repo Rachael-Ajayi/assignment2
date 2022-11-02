@@ -1,0 +1,38 @@
+/* // FILENAME: Assignment1
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 2ND OCTOBER, 2022 */
+
+
+/*custom css goes here*/
+ul
+{
+    margin-left: auto;
+}
+
+.copyright
+{
+    font-size:x-small;
+}
+
+.jumbotron
+{
+    text-align: center;
+    align-items: center;
+}
+
+.display-4
+{
+    font-family: 'Dancing Script', cursive;
+}
+
+table
+{
+    margin-left: 10%;
+}
+
+#service
+{
+    font-size:xx-large;
+    font-family: 'Dancing Script', cursive;
+}
